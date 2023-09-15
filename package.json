@@ -1,0 +1,18 @@
+{
+  "name": "bdd-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:steps": "npx codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^8.15.0",
+    "codeceptjs": "^3.5.4",
+    "webdriverio": "^8.16.6"
+  }
+}
